@@ -1,0 +1,14 @@
+div { 
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    border: 5px solid navy;
+    border-radius: 50%;
+
+    /*content-box / border-box*/
+    box-sizing: border-box;
+}
+
+
+/* 보통 프로필 사진 같은거 할 때 사용하는 일이 많아서 굳이 이야기합니다.
+정사각형에서 border-radius: 50%; 적용하면 원형됨 */

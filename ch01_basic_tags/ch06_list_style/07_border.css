@@ -1,0 +1,8 @@
+/* ul > li:not(:last-child(5)) {
+    border-bottom: 1px solid black;
+} */
+
+ul > li:not(:first-child) {*nth-child(1)로 고쳐써도 상관이 없겠네요*/
+    border-top: 1px solid black;
+
+}
